@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f3ef;
+}
+
+.hero {
+  background: #f5f3ef;
+  height: 100%;
+}
+
+nav {
+  padding: 3rem 2.5rem 0rem 2.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  margin-inline: 0.3rem;
+}
+
+ul li a {
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: #1e1e21;
+  border-radius: 4rem;
+  font-size: 1.5rem;
+}
+
+img {
+  height: fit-content;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  margin-inline: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  font-weight: 500;
+  color: #1e1e21;
+  font-size: 10rem;
+  width: 12ch;
+  line-height: 9rem;
+}
+
+h2,
+.scroll-text,
+.about h3,
+.what-i-do h3 {
+  line-height: 3rem;
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scroll-text {
+  align-self: end;
+}
+
+.hero-img {
+  height: 80%;
+  object-fit: cover;
+  background: url("/assets/neom-brFQojtwSzE-unsplash.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about,
+.what-i-do {
+  margin-inline: 4rem;
+  padding-block: 4rem;
+  display: flex;
+}
+
+#about-text {
+  color: #1e1e21;
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 90%;
+  width: 16ch;
+  padding-right: 3rem;
+  border-right: 2px solid black;
+}
+
+.about-right {
+  margin-left: 5rem;
+}
+
+.flex-colum-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-icons i {
+  background: #1e1e21;
+  color: white;
+  font-size: 1.5rem;
+  margin-inline: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+.border-bottom-full {
+  border-bottom: 3px solid black;
+}
+
+.what-i-do .scroll-text {
+  width: 35%;
+  align-self: unset;
+}
+
+.what-i-do {
+  align-items: flex-start;
+}
+
+.what-i-do-info {
+  margin-left: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-left: 2px solid black;
+  padding-left: 4rem;
+  gap: 4rem;
+}
+
+.part-one,
+.part-two {
+  display: flex;
+  gap: 3rem;
+}
+
+.border-full {
+  border: 1.5px solid black;
+}
+
+.what-i-do-info h4 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.what-i-do-info p {
+  margin-top: 0.3rem;
+  color: #606061;
+  width: 30ch;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.marquee{
+  overflow: hidden;
+}
+
+.marquee-inner {
+  font-size: 12rem;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
